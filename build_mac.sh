@@ -1,5 +1,7 @@
 set -x
 
+rm opus.node
+
 node-gyp clean configure build --arch=x64
 mv build/Release/opus.node ./opus.node.x86_64
 node-gyp clean configure build --arch=arm64
