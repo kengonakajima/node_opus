@@ -33,3 +33,8 @@ npm i
 bash build_mac.sh
 ```
 
+# Testing the binding
+
+```
+node test.js
+```
