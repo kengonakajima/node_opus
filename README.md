@@ -1,6 +1,10 @@
 # Build script for macOS universal binary of opus.node of  @discordjs/opus
 
+This repository (build_mac.sh) is forked from @discordjs/opus .
+
 @discordjs/opus is a  Native bindings to libopus v1.3 .
+
+
 
 
 
