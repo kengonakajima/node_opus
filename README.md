@@ -1,5 +1,7 @@
-# @discordjs/opus [![Build](https://github.com/discordjs/opus/workflows/Build/badge.svg)](https://github.com/discordjs/opus/actions?query=workflow%3ABuild) [![Prebuild](https://github.com/discordjs/opus/workflows/Prebuild/badge.svg)](https://github.com/discordjs/opus/actions?query=workflow%3APrebuild)
-> Native bindings to libopus v1.3
+# Build script for macOS universal binary of opus.node of  @discordjs/opus
+
+@discordjs/opus is a  Native bindings to libopus v1.3 .
+
 
 ## Usage
 
