@@ -1,27 +1,37 @@
-# Build script for macOS universal binary of opus.node of  @discordjs/opus
+# Build script for Opus node binding.
 
 This repository (build_mac.sh) is forked from @discordjs/opus .
 
 @discordjs/opus is a  Native bindings to libopus v1.3 .
 
 
+## Platforoms:
+
+- macOS: Universal binary of opus.node 
+- Wndows: x64 binary of opus.node
 
 
 
-
-# Building macos universal binary addon
+## Building macos universal binary addon
 
 ```
 npm i
 bash build_mac.sh
 ```
 
-# Testing the binding
+## Building Windows x64 binary addon
+
+```
+npm i
+build_win.bat
+```
+
+
+## Testing the binding
 
 ```
 node test.js
 ```
-
 
 ## Module usage
 
